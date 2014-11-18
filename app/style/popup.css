@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Play:400,700);
+
+html, body {
+  font-family: 'Play', sans-serif;
+  font-size: 1em;
+}
+
+#main {
+  width: 400px;
+}
+
+input#name {
+  text-align: right;
+  border-radius: 3px;
+  padding: 3px;
+  box-shadow: none;
+  border: 1px #bbb solid;
+}
+
+#ips {
+  margin-top: 10px;
+}
+
+#ips table {
+  width: 100%;
+  border-top: 1px #bbb solid;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}

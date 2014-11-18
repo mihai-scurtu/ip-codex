@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+  <link rel="stylesheet" href="style/popup.css">
+
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="bower_components/async/lib/async.js"></script>
+  <script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+  <script type="text/javascript" src="scripts/lib.js"></script>
+  <script type="text/javascript" src="scripts/popup.js"></script>
+</head>
+<body>
+<div id="main">
+  <h1>IP Codex</h1>
+  
+  <div id="info">
+    <div>
+      Computer name: <input type="text" id="name" placeholder="Enter computer name..." class="pull-right"> 
+    </div>
+    <div style="clear:both">
+      External IP: <strong class="ip this pull-right"></strong>
+    </div>
+  </div>
+
+  <div id="ips">
+    Other collected IPs
+    <table>
+    </table>
+  </div>
+  
+</div>
+</body>
+</html>
