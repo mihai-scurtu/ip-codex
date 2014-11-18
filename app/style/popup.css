@@ -7,6 +7,8 @@ html, body {
 
 #main {
   width: 400px;
+  background: url('../images/icon-128.png') top right no-repeat;
+  background-size: 42px 42px;
 }
 
 input#name {
@@ -15,6 +17,7 @@ input#name {
   padding: 3px;
   box-shadow: none;
   border: 1px #bbb solid;
+  font-family: 'Play', sans-serif;
 }
 
 #ips {
